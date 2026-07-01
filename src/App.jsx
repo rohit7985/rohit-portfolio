@@ -717,10 +717,10 @@ export default function Portfolio() {
           </div>
 
           <div className="flex justify-center gap-3 mt-8">
-            <a href="#" className="glass-panel h-11 w-11 rounded-full flex items-center justify-center hover:bg-white/10 transition">
+            <a href="https://github.com/rohit7985" target="_blank" className="glass-panel h-11 w-11 rounded-full flex items-center justify-center hover:bg-white/10 transition">
               <Github size={17} />
             </a>
-            <a href="#" className="glass-panel h-11 w-11 rounded-full flex items-center justify-center hover:bg-white/10 transition">
+            <a href="https://www.linkedin.com/in/rohit84000" target="_blank" className="glass-panel h-11 w-11 rounded-full flex items-center justify-center hover:bg-white/10 transition">
               <Linkedin size={17} />
             </a>
           </div>
