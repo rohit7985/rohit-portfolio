@@ -22,13 +22,13 @@ import {
 
 const PROFILE = {
   name: "Rohit Kumar Patel",
-  title: "Senior Software Engineer",
-  tagline: "PHP · Laravel · AI-Integrated Backends",
+  title: "Software Engineer | PHP Laravel Developer",
+  tagline: "PHP · Laravel · Lumen · RESTful APIs · AI Integration",
   location: "Gurugram, India",
   email: "rohitpatel84000@gmail.com",
   phone: "+91 8400013726",
   summary:
-    "Software engineer with 4+ years building scalable web applications and RESTful APIs on the LAMP stack. I ship enterprise and government systems end to end — API design, database architecture, and increasingly, AI-assisted workflows layered into Laravel with LLM providers.",
+    "Software Engineer with 4+ years of experience building scalable enterprise web applications and RESTful APIs using PHP, Laravel, Lumen, and the LAMP Stack. Experienced in backend development, API integration, MySQL database optimization, and AI-powered solutions using Laravel AI SDK and OpenAI APIs. Familiar with React.js and passionate about building secure, high-performance, and maintainable applications.",
 };
 
 const EXPERIENCE = [
@@ -38,11 +38,11 @@ const EXPERIENCE = [
     company: "Kellton",
     period: "Apr 2022 — Present",
     points: [
-      "Integrated AI-powered features into Laravel apps using Laravel AI SDKs and third-party LLM providers for conversational, intelligent workflows.",
-      "Built AI-assisted modules on OpenAI-compatible APIs for content generation, summarization, and context-aware responses.",
-      "Led the Leave Management module for FCI's HRMS, lifting leave-tracking efficiency by 35%.",
-      "Engineered real-time data flows on the LAMP stack, improving system performance and reliability.",
-      "Designed a scalable pricing engine for high-purity quartz and ceramics on the Momentive WOC project.",
+      "Developed enterprise web applications using PHP, Laravel, Lumen, and the LAMP Stack following OOP, MVC Architecture, and SOLID Principles.",
+      "Built and optimized RESTful APIs, Third-party API Integrations, and AI-powered features using Laravel AI SDK and OpenAI APIs.",
+      "Designed scalable backend modules with MySQL, MariaDB, and SQL Optimization, improving application performance and reliability.",
+      "Developed dynamic features using JavaScript, jQuery, AJAX, JSON, HTML5, CSS3, Bootstrap, with exposure to React.js.",
+      "Worked with Git, GitHub, GitLab, Postman, Composer, Jira, CI/CD, Apache, Nginx, and Linux while contributing to Microservices-based backend development.",
     ],
   },
   {
@@ -51,9 +51,9 @@ const EXPERIENCE = [
     company: "Kellton",
     period: "Oct 2021 — Apr 2022",
     points: [
-      "Built a secure, scalable CMS for blogs, engineered for usability and industry compliance.",
-      "Deepened PHP and LAMP-stack fundamentals shipping user-facing web applications.",
-      "Owned testing and optimization passes, keeping deployments clean and predictable.",
+      "Developed secure web applications using PHP, Laravel, HTML5, CSS3, Bootstrap, JavaScript, jQuery, and AJAX.",
+      "Built RESTful APIs and backend modules using MySQL, MariaDB, API Integration, and SQL Optimization.",
+      "Used Git, GitHub, Composer, Postman, Jira, Apache, and Nginx while following Agile, OOP, MVC Architecture, and SOLID Principles.",
     ],
   },
 ];
@@ -65,12 +65,19 @@ const PROJECTS = [
     org: "Food Corporation of India",
     endpoint: "POST /api/v1/leave/apply",
     description:
-      "Leave Management module inside a national HR platform serving 50,000+ employees — application, approval routing, policy compliance, and automated notifications.",
+      "Developed the Leave Management module using PHP, Laravel, RESTful APIs, and MySQL, enabling leave application, approval workflows, policy compliance, and automated notifications for 50,000+ employees.",
     metrics: [
-      { label: "Employees served", value: "50,000+" },
-      { label: "Manual effort cut", value: "35%" },
+      { label: "Employees Served", value: "50,000+" },
+      { label: "Efficiency Improved", value: "35%" },
     ],
-    stack: ["PHP", "Laravel", "MySQL", "REST API"],
+    stack: [
+      "PHP",
+      "Laravel",
+      "RESTful APIs",
+      "MySQL",
+      "API Integration",
+      "SQL Optimization",
+    ],
   },
   {
     id: "momentive",
@@ -78,12 +85,19 @@ const PROJECTS = [
     org: "Momentive Performance Materials",
     endpoint: "POST /api/v1/pricing/calculate",
     description:
-      "Product pricing engine for high-purity quartz and ceramics — validation rules and pricing algorithms that streamlined configuration for cross-functional teams.",
+      "Designed and developed an enterprise product pricing system using PHP, Laravel, MariaDB, and RESTful APIs with backend validation, pricing algorithms, API Integration, and SQL Optimization.",
     metrics: [
-      { label: "Product lines", value: "Quartz + Ceramics" },
-      { label: "Config time", value: "Streamlined" },
+      { label: "Product Lines", value: "Quartz & Ceramics" },
+      { label: "System", value: "Enterprise Pricing" },
     ],
-    stack: ["PHP", "Laravel", "MariaDB", "API Integration"],
+    stack: [
+      "PHP",
+      "Laravel",
+      "MariaDB",
+      "RESTful APIs",
+      "API Integration",
+      "SQL Optimization",
+    ],
   },
 ];
 
@@ -91,22 +105,62 @@ const SKILLS = [
   {
     group: "Backend",
     icon: Terminal,
-    items: ["PHP", "Laravel", "Lumen", "REST API", "API Integration", "Laravel AI SDK"],
+    items: [
+      "PHP",
+      "Laravel",
+      "Lumen",
+      "RESTful APIs",
+      "Backend Development",
+      "API Integration",
+      "MVC Architecture",
+      "OOP",
+      "SOLID Principles",
+      "Microservices",
+    ],
   },
   {
     group: "AI & Automation",
     icon: Cpu,
-    items: ["OpenAI API", "Prompt Engineering", "Workflow Automation", "Conversational AI"],
+    items: [
+      "Laravel AI SDK",
+      "OpenAI API",
+      "Prompt Engineering",
+      "AI Integration",
+      "Workflow Automation",
+    ],
   },
   {
     group: "Database",
     icon: Database,
-    items: ["MySQL", "MariaDB"],
+    items: [
+      "MySQL",
+      "MariaDB",
+      "SQL Optimization",
+    ],
   },
   {
     group: "Frontend & Tools",
     icon: Layers,
-    items: ["HTML", "CSS", "JavaScript", "Bootstrap", "GitHub", "JIRA", "Postman", "Composer"],
+    items: [
+      "React.js (Exposure)",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "Bootstrap",
+      "jQuery",
+      "AJAX",
+      "Git",
+      "GitHub",
+      "GitLab",
+      "Postman",
+      "Composer",
+      "Jira",
+      "CI/CD",
+      "Apache",
+      "Nginx",
+      "Linux",
+      "LAMP Stack",
+    ],
   },
 ];
 
